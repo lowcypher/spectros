@@ -1,0 +1,10 @@
+/vendor/
+
+# uploads (mantém a pasta, mas ignora o conteúdo)
+uploads/*
+!uploads/.gitkeep
+
+# arquivos locais/sensíveis
+.env
+*.log
+.DS_Store
